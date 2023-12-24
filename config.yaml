@@ -1,0 +1,75 @@
+title: Vitruvian (CC0)
+author: Hope (Shape,Morphs, Blendshapes, UVs, Textures, Rigging), Olaf Delgado-Friedrichs (Original Antonia Version, Topology)
+additional_authors: SirMaxim (Skin LUT), Upliner (Original Antonia Rigging)
+license: CC0
+
+char_obj: cm_vitruvian
+basis: Default
+default_hair_length: 0.1
+default_armature: rigify
+default_texture_set: 4K
+
+hair_library: eyebrows.blend
+hair_obj: EyeBrows
+hair_shrinkwrap: true
+force_hair_scalp: true
+hair_shrinkwrap_offset: 0
+hairstyles: [Eyebrows001, Eyebrows002, Eyebrows003, Eyebrows004, Eyebrows005, Eyebrows006, Eyebrows007, Eyebrows008, Eyebrows009, Eyebrows010, Eyebrows011, Eyebrows012]
+
+custom_morph_order: true
+recurse_materials: true
+
+materials:
+  - Iris
+  - Mouth
+  - Pupil
+  - Sclera_Cornea
+  - Face
+  - Torso
+  - Arms
+  - Legs
+  - EyeHair
+  - Tearline
+armature_defaults:
+    type: rigify
+    file: rigs.blend
+
+armature:
+  rigify:
+    bones:
+      default:
+        axis_z: keep
+      #TODO: Bending angle!
+    ik_limits:
+      MCH-forearm_ik.L:
+        min: -40
+        max: 130
+      MCH-forearm_ik.R:
+        min: -40
+        max: 130
+      MCH-shin_ik.L:
+        min: -5
+        max: 152
+      MCH-shin_ik.R:
+        min: -5
+        max: 152
+    title: Default (Modified Rigify)
+    type: rigify
+    file: rigs.blend
+    obj_name: metarig
+    sliding_joints:
+      elbows:
+        upper_bone: upper_arm
+        lower_bone: forearm
+        side: [".L", ".R"]
+        influence: 0.086
+        verts_mul: [[7008, 20252], [2700, 25148], [6186, 20252], [1878, 25148]]
+        verts_div: [[6186, 7039], [1878, 2731]]
+        calc: (verts_mul/verts_div)**3*3.532
+        
+
+      knees:
+        upper_bone: thigh
+        lower_bone: shin
+        side: [".L", ".R"]
+        influence: 0.07

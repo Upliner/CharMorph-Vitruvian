@@ -36,17 +36,14 @@ armature_defaults:
 
 armature:
   rigify:
-    bones:
-      default:
-        axis_z: keep
-      #TODO: Bending angle!
+    bones: bones.yaml
     ik_limits:
       MCH-forearm_ik.L:
-        min: -40
-        max: 130
+        min: -10
+        max: 140
       MCH-forearm_ik.R:
-        min: -40
-        max: 130
+        min: -10
+        max: 140
       MCH-shin_ik.L:
         min: -5
         max: 152
@@ -66,7 +63,6 @@ armature:
         verts_mul: [[7008, 20252], [2700, 25148], [6186, 20252], [1878, 25148]]
         verts_div: [[6186, 7039], [1878, 2731]]
         calc: (verts_mul/verts_div)**3*3.532
-        
 
       knees:
         upper_bone: thigh

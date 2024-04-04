@@ -1,6 +1,6 @@
 title: Vitruvian (CC0)
-author: Hope (Shape,Morphs, Blendshapes, UVs, Textures, Rigging), Olaf Delgado-Friedrichs (Original Antonia Version, Topology)
-additional_authors: SirMaxim (Skin LUT), Upliner (Original Antonia Rigging)
+author: Hope, Olaf Delgado-Friedrichs
+additional_authors: Hope (Shape,Morphs, Blendshapes, UVs, Textures, Rigging), Olaf Delgado-Friedrichs (Original Antonia Version, Topology), SirMaxim (Skin LUT), Upliner (Original Antonia Rigging)
 license: CC0
 
 char_obj: cm_vitruvian
@@ -24,10 +24,7 @@ materials:
   - Mouth
   - Pupil
   - Sclera_Cornea
-  - Face
-  - Torso
-  - Arms
-  - Legs
+  - UDIM.Skin
   - EyeHair
   - Tearline
 armature_defaults:
@@ -35,7 +32,7 @@ armature_defaults:
     file: rigs.blend
 
 armature:
-  rigify:
+   rigify:
     bones: bones.yaml
     ik_limits:
       MCH-forearm_ik.L:
@@ -54,12 +51,13 @@ armature:
     type: rigify
     file: rigs.blend
     obj_name: metarig
+    drivers: drivers.json
     sliding_joints:
       elbows:
         upper_bone: upper_arm
         lower_bone: forearm
         side: [".L", ".R"]
-        influence: 0.086
+        influence: 0.080
         verts_mul: [[7008, 20252], [2700, 25148], [6186, 20252], [1878, 25148]]
         verts_div: [[6186, 7039], [1878, 2731]]
         calc: (verts_mul/verts_div)**3*3.532
@@ -69,3 +67,19 @@ armature:
         lower_bone: shin
         side: [".L", ".R"]
         influence: 0.07
+  
+   mannequin:
+    title: Unreal Mannequin (Experimental)
+    type: regular
+    file: rigs.blend
+    obj_name: SK_UE5_Vitruvian
+    weights: weights/mannequin.npz
+    joints: joints/mannequin.npz
+    
+   mixamo:
+    title: Mixamo (Game-Ready)
+    type: regular
+    file: rigs.blend
+    obj_name: mixamo_vitruvian
+    weights: weights/Mixamo.npz
+    joints: joints/Mixamo.npz

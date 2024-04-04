@@ -1,281 +1,519 @@
-default:
-  axis_z: keep
-bones:
-  Angry_FACS:
-    offs_head: [-0.32102, -0.03637, -0.1239]
-    offs_tail: [-0.32102, -0.03637, -0.08121]
-  Circumspect_FACS:
-    offs_head: [-0.32147, -0.03637, 0.09032]
-    offs_tail: [-0.32147, -0.03637, 0.13301]
-  Compressed_FACS:
-    offs_head: [-0.32147, -0.03637, 0.17559]
-    offs_tail: [-0.32147, -0.03637, 0.21828]
-  Disgusted_FACS:
-    offs_head: [-0.32102, -0.03637, -0.2508]
-    offs_tail: [-0.32102, -0.03637, -0.20811]
-  Kiss_FACS:
-    offs_head: [-0.32102, -0.03637, -0.16294]
-    offs_tail: [-0.32102, -0.03637, -0.12428]
-  MCH-lip-handle.B.L:
-    axis_x: [1.0, -1.0, 0.0]
-  MCH-lip-handle.B.R:
-    axis_x: [1.0, 1.0, 0.0]
-  Oops_FACS:
-    offs_head: [-0.32102, -0.03637, -0.038]
-    offs_tail: [-0.32102, -0.03637, 0.0047]
-  Revulsion_FACS:
-    offs_head: [-0.32147, -0.03637, 0.04774]
-    offs_tail: [-0.32147, -0.03637, 0.09043]
-  Sad_FACS:
-    offs_head: [-0.32102, -0.03637, -0.08093]
-    offs_tail: [-0.32102, -0.03637, -0.03823]
-  Scared_FACS:
-    offs_head: [-0.32102, -0.03637, -0.20777]
-    offs_tail: [-0.32102, -0.03637, -0.16507]
-  Thinking_FACS:
-    offs_head: [-0.32147, -0.03637, 0.00491]
-    offs_tail: [-0.32147, -0.03637, 0.04761]
-  Uncompressed_FACS:
-    offs_head: [-0.32147, -0.03637, 0.13335]
-    offs_tail: [-0.32147, -0.03637, 0.17605]
-  aa_02_FACS:
-    offs_head: [0.19628, -0.03637, 0.35994]
-    offs_tail: [0.19628, -0.03637, 0.39653]
-  abdomen:
-    offs_tail: [0.0, -0.1, 0.0]
-  ae_ax_ah_01_FACS:
-    offs_head: [0.19628, -0.03637, 0.39088]
-    offs_tail: [0.19628, -0.03637, 0.42747]
-  ao_03_FACS:
-    offs_head: [0.19628, -0.03637, 0.32745]
-    offs_tail: [0.19628, -0.03637, 0.36404]
-  aw_09_FACS:
-    offs_head: [0.19628, -0.03637, 0.13659]
-    offs_tail: [0.19628, -0.03637, 0.17318]
-  ay_11_FACS:
-    offs_head: [0.19628, -0.03637, 0.07255]
-    offs_tail: [0.19628, -0.03637, 0.10914]
-  breast.L:
-    axis_z: [-1.0, 0.0, 0.5]
-  breast.R:
-    axis_z: [1.0, 0.0, 0.5]
-  brow.B.L:
-    bb_in_axis_z: [0.0, -1.0, 0.0]
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  brow.B.L.001:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  brow.B.L.002:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  brow.B.L.003:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  brow.B.R:
-    bb_in_axis_z: [0.0, -1.0, 0.0]
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  brow.B.R.001:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  brow.B.R.002:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  brow.B.R.003:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  brow.T.L:
-    bb_out_axis_z: [1.0, -1.0, 0.0]
-  brow.T.L.001:
-    bb_out_axis_z: [0.5, -1.0, 0.0]
-  brow.T.L.002:
-    bb_out_axis_z: [0.25, -1.0, 0.0]
-  brow.T.L.003:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  brow.T.R:
-    bb_out_axis_z: [-1.0, -1.0, 0.0]
-  brow.T.R.001:
-    bb_out_axis_z: [-0.5, -1.0, 0.0]
-  brow.T.R.002:
-    bb_out_axis_z: [-0.25, -1.0, 0.0]
-  brow.T.R.003:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  cheek.B.L:
-    bb_in_axis_z: [1.0, -1.0, 0.0]
-    bb_out_axis_z: [1.0, -1.0, 0.0]
-  cheek.B.L.001:
-    bb_out_axis_z: [1.0, -1.0, 0.0]
-  cheek.B.R:
-    bb_in_axis_z: [-1.0, -1.0, 0.0]
-    bb_out_axis_z: [-1.0, -1.0, 0.0]
-  cheek.B.R.001:
-    bb_out_axis_z: [-1.0, -1.0, 0.0]
-  cheek.T.L:
-    bb_in_axis_z: [1.0, -1.0, 0.0]
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  cheek.T.L.001:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  cheek.T.R:
-    bb_in_axis_z: [-1.0, -1.0, 0.0]
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  cheek.T.R.001:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  d_t_n_19_FACS:
-    offs_head: [0.19628, -0.03637, -0.17736]
-    offs_tail: [0.19628, -0.03637, -0.14077]
-  ear.L:
-    bb_in_axis_z: [1.0, 0.0, 0.0]
-    bb_out_axis_z: [1.0, 0.0, 0.0]
-  ear.L.001:
-    bb_out_axis_z: [1.0, 0.0, 0.0]
-  ear.L.002:
-    bb_out_axis_z: [1.0, 0.0, 0.0]
-  ear.L.003:
-    bb_out_axis_z: [1.0, 0.0, 0.0]
-  ear.L.004:
-    bb_out_axis_z: [1.0, 0.0, 0.0]
-  ear.R:
-    bb_in_axis_z: [-1.0, 0.0, 0.0]
-    bb_out_axis_z: [-1.0, 0.0, 0.0]
-  ear.R.001:
-    bb_out_axis_z: [-1.0, 0.0, 0.0]
-  ear.R.002:
-    bb_out_axis_z: [-1.0, 0.0, 0.0]
-  ear.R.003:
-    bb_out_axis_z: [-1.0, 0.0, 0.0]
-  ear.R.004:
-    bb_out_axis_z: [-1.0, 0.0, 0.0]
-  er_05_FACS:
-    offs_head: [0.19628, -0.03637, 0.26342]
-    offs_tail: [0.19628, -0.03637, 0.30001]
-  ey_eh_uh_04_FACS:
-    offs_head: [0.19628, -0.03637, 0.29847]
-    offs_tail: [0.19628, -0.03637, 0.33506]
-  f_index.01.L:
-    connected: 1
-  f_index.01.R:
-    connected: 1
-  f_middle.01.L:
-    connected: 1
-  f_middle.01.R:
-    connected: 1
-  f_pinky.01.L:
-    connected: 1
-  f_pinky.01.R:
-    connected: 1
-  f_ring.01.L:
-    connected: 1
-  f_ring.01.R:
-    connected: 1
-  f_v_18_FACS:
-    offs_head: [0.19628, -0.03637, -0.14294]
-    offs_tail: [0.19628, -0.03637, -0.10635]
-  h_12_FACS:
-    offs_head: [0.19628, -0.03637, 0.04357]
-    offs_tail: [0.19628, -0.03637, 0.08016]
-  heel.02.L:
-    offs_head: [0.0, 0.0, -0.01]
-    offs_tail: [0.0, 0.0, -0.01]
-  heel.02.R:
-    offs_head: [0.0, 0.0, -0.01]
-    offs_tail: [0.0, 0.0, -0.01]
-  jaw.L:
-    bb_in_axis_z: [1.0, -1.0, 0.0]
-    bb_out_axis_z: [1.0, -1.0, 0.0]
-  jaw.L.001:
-    bb_out_axis_z: [1.0, -1.0, 0.0]
-  jaw.R.001:
-    bb_out_axis_z: [-1.0, -1.0, 0.0]
-  k_g_ng_20_FACS:
-    offs_head: [0.19628, -0.03637, -0.2083]
-    offs_tail: [0.19628, -0.03637, -0.17172]
-  knee.L:
-    align: shin.L
-    offs_tail: [0.0, 0.0, -0.04]
-  knee.R:
-    align: shin.R
-    offs_tail: [0.0, 0.0, -0.04]
-  l_14_FACS:
-    offs_head: [0.19628, -0.03637, -0.01743]
-    offs_tail: [0.19628, -0.03637, 0.01916]
-  lid.B.L:
-    bb_in_axis_z: [0.0, -1.0, 0.0]
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lid.B.L.001:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lid.B.L.002:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lid.B.L.003:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lid.B.R:
-    bb_in_axis_z: [0.0, -1.0, 0.0]
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lid.B.R.001:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lid.B.R.002:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lid.B.R.003:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lid.T.L:
-    bb_in_axis_z: [0.0, -1.0, 0.0]
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lid.T.L.001:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lid.T.L.002:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lid.T.L.003:
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lip.B.L:
-    bb_in_axis_z: [0.0, -1.0, 0.0]
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lip.B.L.001:
-    bb_out_axis_z: [1.0, -1.0, 0.0]
-  lip.B.R:
-    bb_in_axis_z: [0.0, -1.0, 0.0]
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lip.B.R.001:
-    bb_out_axis_z: [-1.0, -1.0, 0.0]
-  lip.T.L:
-    bb_in_axis_z: [0.0, -1.0, 0.0]
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lip.T.L.001:
-    bb_out_axis_z: [1.0, -1.0, 0.0]
-  lip.T.R:
-    bb_in_axis_z: [0.0, -1.0, 0.0]
-    bb_out_axis_z: [0.0, -1.0, 0.0]
-  lip.T.R.001:
-    bb_out_axis_z: [-1.0, -1.0, 0.0]
-  ow_08_FACS:
-    offs_head: [0.19628, -0.03637, 0.16907]
-    offs_tail: [0.19628, -0.03637, 0.20566]
-  oy_10_FACS:
-    offs_head: [0.19628, -0.03637, 0.1076]
-    offs_tail: [0.19628, -0.03637, 0.14419]
-  p_b_m_21_FACS:
-    offs_head: [0.19628, -0.03637, -0.24079]
-    offs_tail: [0.19628, -0.03637, -0.20419]
-  r_13_FACS:
-    offs_head: [0.19628, -0.03637, 0.0135]
-    offs_tail: [0.19628, -0.03637, 0.05009]
-  s_z_15_FACS:
-    offs_head: [0.19628, -0.03637, -0.04992]
-    offs_tail: [0.19628, -0.03637, -0.01333]
-  sh_ch_jh_zh_16_FACS:
-    offs_head: [0.19628, -0.03637, -0.0789]
-    offs_tail: [0.19628, -0.03637, -0.04232]
-  shoulder.L:
-    axis_z: [0.0, 0.0, 1.0]
-  shoulder.R:
-    axis_z: [0.0, 0.0, 1.0]
-  spine.004:
-    connected: 1
-  th_dh_17_FACS:
-    offs_head: [0.19628, -0.03637, -0.11395]
-    offs_tail: [0.19628, -0.03637, -0.07736]
-  toe_bend.L:
-    connected: 1
-  toe_bend.R:
-    connected: 1
-  upper_arm.L:
-    connected: 1
-  upper_arm.R:
-    connected: 1
-  w_uw_07_FACS:
-    offs_head: [0.19628, -0.03637, 0.20001]
-    offs_tail: [0.19628, -0.03637, 0.2366]
-  y_iy_ih_ix_06_FACS:
-    offs_head: [0.19628, -0.03637, 0.23443]
-    offs_tail: [0.19628, -0.03637, 0.27102]
+Angry_FACS:
+  offs_head: [-0.32102, -0.03637, -0.1239]
+  offs_tail: [-0.32102, -0.03637, -0.08121]
+Circumspect_FACS:
+  offs_head: [-0.32147, -0.03637, 0.13409]
+  offs_tail: [-0.32147, -0.03637, 0.17678]
+Compressed_FACS:
+  offs_head: [-0.32147, -0.03637, 0.21936]
+  offs_tail: [-0.32147, -0.03637, 0.26205]
+Disgusted_FACS:
+  offs_head: [-0.32102, -0.03637, -0.2508]
+  offs_tail: [-0.32102, -0.03637, -0.2081]
+Happy_FACS:
+  offs_head: [-0.32102, -0.03637, -0.03652]
+  offs_tail: [-0.32102, -0.03637, 0.00617]
+Kiss_FACS:
+  offs_head: [-0.32102, -0.03637, -0.16294]
+  offs_tail: [-0.32102, -0.03637, -0.12429]
+Lid.Squint_FACS:
+  offs_head: [-0.00522, -0.0028, -0.00052]
+  offs_tail: [-0.00524, -0.00274, 0.00587]
+MCH-lip-handle.B.L:
+  axis_x: [1.0, -1.0, 0.0]
+  offs_head: [0.00036, -0.00028, -0.00018]
+  offs_tail: [-0.00016, 0.00018, 5.0e-05]
+MCH-lip-handle.B.R:
+  axis_x: [1.0, 1.0, 0.0]
+  offs_head: [-0.00035, -0.00027, -0.00018]
+  offs_tail: [0.00016, 0.00017, 5.0e-05]
+Mouth.Left.Right_FACS:
+  offs_head: [-0.00192, -0.00415, -0.0041]
+  offs_tail: [-0.00192, -0.00415, -0.00168]
+Mouth.Up.Down_FACS:
+  offs_head: [-0.00488, -0.01043, -0.00299]
+  offs_tail: [-0.00494, -0.01035, 0.00297]
+Oops_FACS:
+  offs_head: [-0.32102, -0.03637, 0.00578]
+  offs_tail: [-0.32102, -0.03637, 0.04847]
+Revulsion_FACS:
+  offs_head: [-0.32147, -0.03637, 0.09151]
+  offs_tail: [-0.32147, -0.03637, 0.1342]
+Sad_FACS:
+  offs_head: [-0.32102, -0.03637, -0.08093]
+  offs_tail: [-0.32102, -0.03637, -0.03823]
+Scared_FACS:
+  offs_head: [-0.32102, -0.03637, -0.20776]
+  offs_tail: [-0.32102, -0.03637, -0.16507]
+Smile.Frown_FACS:
+  offs_head: [0.00374, -0.01041, -0.00299]
+  offs_tail: [0.00381, -0.01032, 0.00294]
+Thinking_FACS:
+  offs_head: [-0.32147, -0.03637, 0.04868]
+  offs_tail: [-0.32147, -0.03637, 0.09137]
+Uncompressed_FACS:
+  offs_head: [-0.32147, -0.03637, 0.17712]
+  offs_tail: [-0.32147, -0.03637, 0.21982]
+aa_02_FACS:
+  offs_head: [0.19628, -0.03637, 0.35994]
+  offs_tail: [0.19628, -0.03637, 0.39653]
+abdomen:
+  offs_tail: [0.0, -0.1, 0.0]
+ae_ax_ah_01_FACS:
+  offs_head: [0.19628, -0.03637, 0.39088]
+  offs_tail: [0.19628, -0.03637, 0.42747]
+ao_03_FACS:
+  offs_head: [0.19628, -0.03637, 0.32745]
+  offs_tail: [0.19628, -0.03637, 0.36404]
+aw_09_FACS:
+  offs_head: [0.19628, -0.03637, 0.13659]
+  offs_tail: [0.19628, -0.03637, 0.17318]
+ay_11_FACS:
+  offs_head: [0.19628, -0.03637, 0.07255]
+  offs_tail: [0.19628, -0.03637, 0.10914]
+breast.L:
+  axis_z: [-1.0, 0.0, 0.5]
+breast.R:
+  axis_z: [1.0, 0.0, 0.5]
+brow.B.L:
+  bb_in_axis_z: [0.0, -1.0, 0.0]
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [7.0e-05, -0.00013, 0.00011]
+  offs_tail: [0.0006, -0.00084, -0.00041]
+brow.B.L.001:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [-4.0e-05, 0.00014, -0.00018]
+brow.B.L.002:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [-0.00012, 0.00027, 0.00038]
+brow.B.L.003:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [-0.00168, 0.00301, -0.00052]
+brow.B.L.004:
+  offs_head: [-0.00168, 0.00301, -0.00052]
+  offs_tail: [0.0004, -0.00074, 0.00077]
+brow.B.R:
+  bb_in_axis_z: [0.0, -1.0, 0.0]
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [-8.0e-05, -0.00015, 0.0001]
+  offs_tail: [-0.00059, -0.00084, -0.00041]
+brow.B.R.001:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [4.0e-05, 0.00014, -0.00018]
+brow.B.R.002:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [0.00013, 0.00027, 0.00038]
+brow.B.R.003:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [0.00167, 0.00301, -0.00052]
+brow.B.R.004:
+  offs_head: [0.00167, 0.00301, -0.00052]
+  offs_tail: [-0.00038, -0.00071, 0.00074]
+brow.T.L:
+  bb_out_axis_z: [1.0, -1.0, 0.0]
+  offs_head: [0.00097, -0.00044, 0.00064]
+  offs_tail: [0.00028, -0.00014, -5.0e-05]
+brow.T.L.001:
+  bb_out_axis_z: [0.5, -1.0, 0.0]
+  offs_head: [0.00028, -0.00014, -5.0e-05]
+brow.T.L.002:
+  bb_out_axis_z: [0.25, -1.0, 0.0]
+  offs_tail: [0.00012, -0.00041, -0.00017]
+brow.T.L.003:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [0.00012, -0.00041, -0.00017]
+  offs_tail: [-0.0, -0.00146, -0.00017]
+brow.T.R:
+  bb_out_axis_z: [-1.0, -1.0, 0.0]
+  offs_head: [-0.00097, -0.00044, 0.00064]
+  offs_tail: [-0.00028, -0.00014, -5.0e-05]
+brow.T.R.001:
+  bb_out_axis_z: [-0.5, -1.0, 0.0]
+  offs_head: [-0.00028, -0.00014, -5.0e-05]
+brow.T.R.002:
+  bb_out_axis_z: [-0.25, -1.0, 0.0]
+  offs_tail: [-0.00012, -0.00041, -0.00017]
+brow.T.R.003:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [-0.00012, -0.00041, -0.00017]
+  offs_tail: [-0.0, -0.00146, -0.00017]
+brow_glue.B.L.002:
+  offs_head: [-4.0e-05, 0.00014, -0.00018]
+brow_glue.B.R.002:
+  offs_head: [4.0e-05, 0.00014, -0.00018]
+cheek.B.L:
+  bb_in_axis_z: [1.0, -1.0, 0.0]
+  bb_out_axis_z: [1.0, -1.0, 0.0]
+  offs_head: [0.00036, -0.00028, -0.00018]
+  offs_tail: [0.001, -0.00025, -0.00016]
+cheek.B.L.001:
+  bb_out_axis_z: [1.0, -1.0, 0.0]
+  offs_tail: [0.00097, -0.00044, 0.00064]
+cheek.B.R:
+  bb_in_axis_z: [-1.0, -1.0, 0.0]
+  bb_out_axis_z: [-1.0, -1.0, 0.0]
+  offs_head: [-0.00035, -0.00027, -0.00018]
+  offs_tail: [-0.00101, -0.00026, -0.00016]
+cheek.B.R.001:
+  bb_out_axis_z: [-1.0, -1.0, 0.0]
+  offs_tail: [-0.00097, -0.00044, 0.00064]
+cheek.T.L:
+  bb_in_axis_z: [1.0, -1.0, 0.0]
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [0.00097, -0.00044, 0.00064]
+  offs_tail: [0.0002, -0.00124, -0.0003]
+cheek.T.L.001:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [0.0004, -0.00074, 0.00077]
+cheek.T.R:
+  bb_in_axis_z: [-1.0, -1.0, 0.0]
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [-0.00097, -0.00044, 0.00064]
+  offs_tail: [-0.0002, -0.00123, -0.0003]
+cheek.T.R.001:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [-0.00038, -0.00071, 0.00074]
+cheek_glue.T.L.001:
+  offs_head: [0.0002, -0.00124, -0.0003]
+  offs_tail: [0.001, -0.00025, -0.00016]
+cheek_glue.T.R.001:
+  offs_head: [-0.0002, -0.00123, -0.0003]
+  offs_tail: [-0.00101, -0.00026, -0.00016]
+chin:
+  offs_head: [-0.0, -0.00026, -0.00139]
+  offs_tail: [-0.0, -0.00054, -0.00019]
+chin.001:
+  offs_tail: [0.0, -0.00063, 0.00052]
+chin.L:
+  offs_tail: [0.00036, -0.00028, -0.00018]
+chin.R:
+  offs_tail: [-0.00035, -0.00027, -0.00018]
+chin_end_glue.001:
+  offs_head: [0.0, -0.00063, 0.00052]
+  offs_tail: [2.0e-05, 0.00063, -0.00011]
+d_t_n_19_FACS:
+  offs_head: [0.19628, -0.03637, -0.17736]
+  offs_tail: [0.19628, -0.03637, -0.14077]
+ear.L:
+  bb_in_axis_z: [1.0, 0.0, 0.0]
+  bb_out_axis_z: [1.0, 0.0, 0.0]
+  offs_head: [-0.00038, 0.00033, -9.0e-05]
+  offs_tail: [0.00105, -0.00099, 0.00088]
+ear.L.001:
+  bb_out_axis_z: [1.0, 0.0, 0.0]
+  offs_head: [0.00105, -0.00099, 0.00088]
+  offs_tail: [0.00017, 0.00026, 0.00079]
+ear.L.002:
+  bb_out_axis_z: [1.0, 0.0, 0.0]
+  offs_head: [0.00017, 0.00026, 0.00079]
+  offs_tail: [-0.00112, 0.00115, 0.00013]
+ear.L.003:
+  bb_out_axis_z: [1.0, 0.0, 0.0]
+  offs_tail: [0.0009, 8.0e-05, -0.00172]
+ear.L.004:
+  bb_out_axis_z: [1.0, 0.0, 0.0]
+  offs_head: [0.0009, 8.0e-05, -0.00172]
+  offs_tail: [-0.00038, 0.00033, -9.0e-05]
+ear.R:
+  bb_in_axis_z: [-1.0, 0.0, 0.0]
+  bb_out_axis_z: [-1.0, 0.0, 0.0]
+  offs_head: [0.00038, 0.00033, -9.0e-05]
+  offs_tail: [-0.00105, -0.001, 0.00088]
+ear.R.001:
+  bb_out_axis_z: [-1.0, 0.0, 0.0]
+  offs_head: [-0.00105, -0.001, 0.00088]
+  offs_tail: [-0.00014, 0.00027, 0.00086]
+ear.R.002:
+  bb_out_axis_z: [-1.0, 0.0, 0.0]
+  offs_head: [-0.00014, 0.00027, 0.00086]
+  offs_tail: [0.00112, 0.00115, 0.00013]
+ear.R.003:
+  bb_out_axis_z: [-1.0, 0.0, 0.0]
+  offs_tail: [-0.0009, 8.0e-05, -0.00172]
+ear.R.004:
+  bb_out_axis_z: [-1.0, 0.0, 0.0]
+  offs_head: [-0.0009, 8.0e-05, -0.00172]
+  offs_tail: [0.00038, 0.00033, -9.0e-05]
+er_05_FACS:
+  offs_head: [0.19628, -0.03637, 0.26342]
+  offs_tail: [0.19628, -0.03637, 0.30001]
+ey_eh_uh_04_FACS:
+  offs_head: [0.19628, -0.03637, 0.29847]
+  offs_tail: [0.19628, -0.03637, 0.33506]
+eye.L:
+  offs_head: [0.00073, -0.00025, -0.00056]
+  offs_tail: [0.00153, -0.0093, -0.00056]
+eye.R:
+  offs_head: [-0.00073, -0.00025, -0.00056]
+  offs_tail: [-0.00153, -0.00931, -0.00056]
+f_index.01.L:
+  connected: 1
+f_index.01.R:
+  connected: 1
+f_middle.01.L:
+  connected: 1
+f_middle.01.R:
+  connected: 1
+f_pinky.01.L:
+  connected: 1
+f_pinky.01.R:
+  connected: 1
+f_ring.01.L:
+  connected: 1
+f_ring.01.R:
+  connected: 1
+f_v_18_FACS:
+  offs_head: [0.19628, -0.03637, -0.14294]
+  offs_tail: [0.19628, -0.03637, -0.10635]
+face:
+  offs_head: [-0.00017, -0.00341, 0.0005]
+  offs_tail: [-5.0e-05, -0.00421, -3.0e-05]
+forehead.L:
+  offs_head: [-0.0005, -0.00126, 0.00178]
+  offs_tail: [0.00012, -0.00041, -0.00017]
+forehead.L.001:
+  offs_head: [0.00081, -0.0012, 0.00109]
+forehead.L.002:
+  offs_head: [-0.00037, 7.0e-05, -8.0e-05]
+  offs_tail: [0.00028, -0.00014, -5.0e-05]
+forehead.R:
+  offs_head: [0.00051, -0.00128, 0.0018]
+  offs_tail: [-0.00012, -0.00041, -0.00017]
+forehead.R.001:
+  offs_head: [-0.00082, -0.0012, 0.00113]
+forehead.R.002:
+  offs_head: [0.00035, 7.0e-05, -8.0e-05]
+  offs_tail: [-0.00028, -0.00014, -5.0e-05]
+h_12_FACS:
+  offs_head: [0.19628, -0.03637, 0.04357]
+  offs_tail: [0.19628, -0.03637, 0.08016]
+heel.02.L:
+  offs_head: [0.0, 0.0, -0.01]
+  offs_tail: [0.0, 0.0, -0.01]
+heel.02.R:
+  offs_head: [0.0, 0.0, -0.01]
+  offs_tail: [0.0, 0.0, -0.01]
+jaw:
+  offs_head: [0.0, 5.0e-05, 0.00048]
+  offs_tail: [-0.0, -0.00026, -0.00139]
+jaw.L:
+  bb_in_axis_z: [1.0, -1.0, 0.0]
+  bb_out_axis_z: [1.0, -1.0, 0.0]
+  offs_head: [-0.0017, 0.00081, 0.00053]
+  offs_tail: [0.00013, -1.0e-05, -7.0e-05]
+jaw.L.001:
+  bb_out_axis_z: [1.0, -1.0, 0.0]
+  offs_tail: [0.00176, -0.00094, -0.00053]
+jaw.R:
+  offs_head: [0.0017, 0.00081, 0.00053]
+  offs_tail: [-0.00013, -1.0e-05, -7.0e-05]
+jaw.R.001:
+  bb_out_axis_z: [-1.0, -1.0, 0.0]
+  offs_tail: [-0.00175, -0.00094, -0.00053]
+jaw_master:
+  offs_head: [-0.00104, 0.01246, 0.0067]
+  offs_tail: [-0.0, -0.00026, -0.00139]
+k_g_ng_20_FACS:
+  offs_head: [0.19628, -0.03637, -0.2083]
+  offs_tail: [0.19628, -0.03637, -0.17171]
+knee.L:
+  align: shin.L
+  offs_tail: [0.0, 0.0, -0.04]
+knee.R:
+  align: shin.R
+  offs_tail: [0.0, 0.0, -0.04]
+l_14_FACS:
+  offs_head: [0.19628, -0.03637, -0.01743]
+  offs_tail: [0.19628, -0.03637, 0.01915]
+lid.B.L:
+  bb_in_axis_z: [0.0, -1.0, 0.0]
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [-0.0002, 0.00035, -0.00014]
+  offs_tail: [9.0e-05, 0.00044, -0.00038]
+lid.B.L.001:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [-0.00014, 0.00072, -0.00038]
+lid.B.L.002:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [-0.00027, 0.00028, -1.0e-05]
+lid.B.L.003:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [0.00019, -0.00039, -0.00073]
+lid.B.R:
+  bb_in_axis_z: [0.0, -1.0, 0.0]
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [0.0002, 0.00035, -0.00014]
+  offs_tail: [-9.0e-05, 0.00044, -0.00038]
+lid.B.R.001:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [0.00014, 0.00072, -0.00038]
+lid.B.R.002:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [0.00027, 0.00028, -1.0e-05]
+lid.B.R.003:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [-0.00019, -0.00039, -0.00073]
+lid.T.L:
+  bb_in_axis_z: [0.0, -1.0, 0.0]
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [0.00019, -0.00039, -0.00073]
+  offs_tail: [0.00041, -0.00019, 5.0e-05]
+lid.T.L.001:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [9.0e-05, -0.00022, 0.00013]
+lid.T.L.002:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [-8.0e-05, 0.00016, 0.00016]
+lid.T.L.003:
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_tail: [-0.0002, 0.00035, -0.00014]
+lid.T.R:
+  offs_head: [-0.00019, -0.00039, -0.00073]
+  offs_tail: [-0.00041, -0.00019, 5.0e-05]
+lid.T.R.001:
+  offs_tail: [-9.0e-05, -0.00022, 0.00013]
+lid.T.R.002:
+  offs_tail: [8.0e-05, 0.00016, 0.00016]
+lid.T.R.003:
+  offs_tail: [0.0002, 0.00035, -0.00014]
+lid_glue.B.L.002:
+  offs_head: [-0.00014, 0.00072, -0.00038]
+  offs_tail: [0.0002, -0.00124, -0.0003]
+lid_glue.B.R.002:
+  offs_head: [0.00014, 0.00072, -0.00038]
+  offs_tail: [-0.0002, -0.00123, -0.0003]
+lip.B.L:
+  bb_in_axis_z: [0.0, -1.0, 0.0]
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [2.0e-05, 0.00063, -0.00011]
+  offs_tail: [-0.00014, 0.00054, -0.00012]
+lip.B.L.001:
+  bb_out_axis_z: [1.0, -1.0, 0.0]
+  offs_tail: [0.00036, -0.00028, -0.00018]
+lip.B.R:
+  bb_in_axis_z: [0.0, -1.0, 0.0]
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [2.0e-05, 0.00063, -0.00011]
+  offs_tail: [0.00014, 0.00055, -0.00012]
+lip.B.R.001:
+  bb_out_axis_z: [-1.0, -1.0, 0.0]
+  offs_tail: [-0.00035, -0.00027, -0.00018]
+lip.T.L:
+  bb_in_axis_z: [0.0, -1.0, 0.0]
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [-0.0, 0.00021, 9.0e-05]
+lip.T.L.001:
+  bb_out_axis_z: [1.0, -1.0, 0.0]
+  offs_tail: [0.00036, -0.00028, -0.00018]
+lip.T.R:
+  bb_in_axis_z: [0.0, -1.0, 0.0]
+  bb_out_axis_z: [0.0, -1.0, 0.0]
+  offs_head: [-0.0, 0.00021, 9.0e-05]
+lip.T.R.001:
+  bb_out_axis_z: [-1.0, -1.0, 0.0]
+  offs_tail: [-0.00035, -0.00027, -0.00018]
+nose:
+  offs_head: [-0.0, -0.00146, -0.00017]
+  offs_tail: [-2.0e-05, -0.00046, 0.00031]
+nose.001:
+  offs_tail: [-4.0e-05, -0.00262, 0.0003]
+nose.002:
+  offs_head: [-4.0e-05, -0.00262, 0.0003]
+  offs_tail: [-0.0, -0.00025, -0.00037]
+nose.003:
+  offs_tail: [-0.0, 0.00048, 0.00036]
+nose.004:
+  offs_head: [-0.0, 0.00048, 0.00036]
+  offs_tail: [-0.0, -0.00059, 0.00049]
+nose.L:
+  offs_tail: [0.00121, -0.00081, -0.00021]
+nose.L.001:
+  offs_head: [0.00121, -0.00081, -0.00021]
+  offs_tail: [-4.0e-05, -0.00262, 0.0003]
+nose.R:
+  offs_tail: [-0.00121, -0.00081, -0.00022]
+nose.R.001:
+  offs_head: [-0.00121, -0.00081, -0.00022]
+  offs_tail: [3.0e-05, -0.00262, 0.0003]
+nose_end_glue.004:
+  offs_head: [-0.0, -0.00059, 0.00049]
+  offs_tail: [-0.0, 0.00021, 9.0e-05]
+nose_glue.004:
+  offs_head: [-0.0, 0.00048, 0.00036]
+  offs_tail: [-0.0, 0.00021, 9.0e-05]
+nose_glue.L.001:
+  offs_head: [0.00121, -0.00081, -0.00021]
+nose_glue.R.001:
+  offs_head: [-0.00121, -0.00081, -0.00022]
+nose_master:
+  offs_head: [-0.0, 0.00782, 0.00511]
+  offs_tail: [-0.0, -0.02039, 0.00511]
+ow_08_FACS:
+  offs_head: [0.19628, -0.03637, 0.16907]
+  offs_tail: [0.19628, -0.03637, 0.20566]
+oy_10_FACS:
+  offs_head: [0.19628, -0.03637, 0.1076]
+  offs_tail: [0.19628, -0.03637, 0.14419]
+p_b_m_21_FACS:
+  offs_head: [0.19628, -0.03637, -0.24079]
+  offs_tail: [0.19628, -0.03637, -0.2042]
+pupil.L:
+  offs_tail: [0.00035, -0.00396, -1.0e-05]
+pupil.R:
+  offs_tail: [-0.00035, -0.00396, -1.0e-05]
+r_13_FACS:
+  offs_head: [0.19628, -0.03637, 0.0135]
+  offs_tail: [0.19628, -0.03637, 0.05009]
+s_z_15_FACS:
+  offs_head: [0.19628, -0.03637, -0.04992]
+  offs_tail: [0.19628, -0.03637, -0.01333]
+sh_ch_jh_zh_16_FACS:
+  offs_head: [0.19628, -0.03637, -0.07891]
+  offs_tail: [0.19628, -0.03637, -0.04232]
+shoulder.L:
+  axis_z: [0.0, 0.0, 1.0]
+shoulder.R:
+  axis_z: [0.0, 0.0, 1.0]
+spine.004:
+  connected: 1
+  offs_tail: [0.00013, 0.00444, 4.0e-05]
+spine.005:
+  offs_tail: [0.00145, -0.00375, 0.00048]
+spine.006:
+  offs_tail: [0.00057, -0.00113, 0.00739]
+teeth.B:
+  offs_head: [0.0, -0.00024, -0.00129]
+  offs_tail: [0.0, -0.00092, 0.00033]
+teeth.T:
+  offs_head: [0.0, 0.00064, -0.00066]
+  offs_tail: [0.0, 0.00199, 0.00221]
+temple.L:
+  offs_head: [-0.00067, 0.00046, -2.0e-05]
+  offs_tail: [-0.0017, 0.00081, 0.00053]
+temple.R:
+  offs_head: [0.00067, 0.00046, -2.0e-05]
+  offs_tail: [0.0017, 0.00081, 0.00053]
+th_dh_17_FACS:
+  offs_head: [0.19628, -0.03637, -0.11395]
+  offs_tail: [0.19628, -0.03637, -0.07737]
+toe_bend.L:
+  connected: 1
+toe_bend.R:
+  connected: 1
+tongue:
+  offs_head: [0.0, 0.00161, -0.00275]
+  offs_tail: [0.0, 0.00024, -0.00579]
+tongue.001:
+  offs_tail: [0.0, 0.00145, -0.00584]
+tongue.002:
+  offs_tail: [-0.0005, 0.00191, 0.0]
+upper_arm.L:
+  connected: 1
+upper_arm.R:
+  connected: 1
+w_uw_07_FACS:
+  offs_head: [0.19628, -0.03637, 0.20001]
+  offs_tail: [0.19628, -0.03637, 0.2366]
+y_iy_ih_ix_06_FACS:
+  offs_head: [0.19628, -0.03637, 0.23443]
+  offs_tail: [0.19628, -0.03637, 0.27102]

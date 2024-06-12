@@ -18,7 +18,7 @@ It is based on a modified version of [Antonia Polygon] (https://sites.google.com
 * Gender Neutral morphing allows for many more unique combinations compared to competitors.
 * 4K UDIM Textures, source available for 8K texturing and customization
 * Volume Preserving Rig
-* Support for Many UVs, Including
+* Support for Many UVs, Including 3D Scan Store, Texturing.XYZ, Digital Emily and more.
 
 ## Downsides
 
@@ -26,7 +26,7 @@ It is based on a modified version of [Antonia Polygon] (https://sites.google.com
 * Limited skin tones, Only supports Black & White textures, with the rest being blended linearly or supports custom [Physically Based Skin tones] (https://half4.xyz/index.php/2020/08/18/introduction-physically-modeling-skin-tones/) 
 * FACS & Morphs can be quite limited at the moment. Either contribute or talk to us on Discord so we can get an Idea on what is missing.
 * Unreal Engine Mannequin will likely never be fixed due to how Unreal's Mannequin relies on corrective blendshapes.
-* Metahuman UVs will likely remain, Mostly broken due to the fact
+* Metahuman UVs will likely remain, Mostly broken due to the fact that Metahuman puts very little Emphasis on any uvs outside of the Face area. Which makes adapting them a Nightmare.
 
 ## Installation manual
 

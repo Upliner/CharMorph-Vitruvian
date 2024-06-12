@@ -56,6 +56,9 @@
         "morph": "BodyType_Muscular"
     },
     {
+        "morph": "Character_LadyDMC5"
+    },
+    {
         "morph": "BodyType_Lean"
     },
     {
@@ -108,13 +111,13 @@
         "morph": "Chin_ChinCleft"
     },
     {
-        "morph": "Ear_Length"
+        "morph": "Ears_Length"
     },
     {
         "morph": "Fantasy_Ear"
     },
     {
-        "morph": "Ear_Height"
+        "morph": "Ears_Height"
     },
     {
         "morph": "Ears_Canal_Size"
@@ -160,10 +163,14 @@
         "morph": "Stomach_BellyButtonPotrusion"
     },
     {
-        "morph": "Waist_GluteSize"
+        "morph": "Waist_GluteSize",
+		"min": -1,
+        "max": 1
     },
     {
-        "morph": "Waist_Hips_Width"
+        "morph": "Waist_Hips_Width",
+		"min": -1,
+        "max": 1
     },
     {
         "morph": "Waist_GlutealFold"
@@ -291,9 +298,7 @@
         "max": 1
     },
     {
-        "morph": "Chest_Breast_Size",
-        "min": -1,
-        "max": 1
+        "morph": "Chest_Breast_Size"
     },
     {
         "morph": "Chest_Areola_Radius"
@@ -481,5 +486,127 @@
         "morph": "Nose_BridgeProminence",
         "min": -1,
         "max": 1
+    },
+    {
+        "morph": "Eyes_UpperLidOpenness"
+    },
+    {
+        "morph": "Eyes_LowerLidOpenness"
+    },
+    {
+        "morph": "Eyes_LacrimalCaruncle_Rotate",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "morph": "Eyes_LacrimalCaruncle_Sharpness"
+    },
+    {
+        "morph": "Stomach_Bloating"
+    },
+    {
+        "morph": "Waist_Width",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "morph": "Chest_FemaleSiliconeImplants"
+    },
+    {
+        "morph": "Mouth_PhiltrumDepth",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "morph": "Mouth_PhiltrumHeight",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "morph": "BodyType_MesoMorph"
+    },
+    {
+        "morph": "BodyType_EndoMorph"
+    },
+    {
+        "morph": "BodyType_EctoMorph"
+    },
+    {
+        "morph": "Chest_FemaleFlatChested"
+    },
+    {
+        "morph": "Neck_AdamsApple"
+    },
+    {
+        "morph": "Legs_FlatFoot"
+    },
+    {
+        "morph": "Eyes_Eyelid_Monolid"
+    },
+    {
+        "morph": "Eyes_Eyelid_hooded"
+    },
+    {
+        "morph": "Jaw_Ramus_Extrusion",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "morph": "Jaw_Ramus_LocY",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "morph": "Face_BrowRidge_Droop"
+    },
+    {
+        "morph": "Face_BrowRidge_Raise"
+    },
+    {
+        "morph": "Face_BrowRidge_CurvedDroop"
+    },
+    {
+        "morph": "Face_BrowRidge_CurvedRaise"
+    },
+    {
+        "morph": "Cheeks_BuccalFat",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "morph": "Chin_Height",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "morph": "Chin_Tilt",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "morph": "Nose_TipCrease"
+    },
+    {
+        "morph": "Ears_Potrusion",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "morph": "Ears_PotrusionTop",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "morph": "Face_Puffy"
+    },
+    {
+        "morph": "Chin_SecondaryWidth",
+        "min": -1,
+        "max": 1
+    },
+    {
+        "morph": "Jaw_Width",
+        "min": -1,
+        "max": 1
     }
-]
+	]

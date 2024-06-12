@@ -414,5 +414,41 @@
     },
     {
         "morph": "y_iy_ih_ix_06"
+    },
+	{
+        "morph": "Eyebrows_InnerBrow_Raised_Left"
+    },
+    {
+        "morph": "Eyebrows_InnerBrow_Raised_Right"
+    },
+    {
+        "morph": "Eyebrows_InnerBrow_Lower_Left"
+    },
+    {
+        "morph": "Eyebrows_InnerBrow_Lower_Right"
+    },
+    {
+        "morph": "Eyebrows_OuterBrow_Lower_Right"
+    },
+    {
+        "morph": "Eyebrows_OuterBrow_Lower_Left"
+    },
+    {
+        "morph": "Eyebrows_OuterBrow_Raised_Right"
+    },
+    {
+        "morph": "Eyebrows_OuterBrow_Raised_Left"
+    },
+    {
+        "morph": "Ears_Up_Right"
+    },
+    {
+        "morph": "Ears_Up_Left"
+    },
+    {
+        "morph": "Ears_Back_Right"
+    },
+    {
+        "morph": "Ears_Back_Left"
     }
 ]

@@ -163,6 +163,306 @@
             }
         },
         {
+            "data_path": "key_blocks[\"Exp_Eyebrows_InnerBrow_Raised_Left\"].value",
+            "array_index": 0,
+            "driver": {
+                "expression": "var * 200",
+                "type": "SCRIPTED",
+                "use_self": false,
+                "variables": {
+                    "var": {
+                        "type": "TRANSFORMS",
+                        "targets": [
+                            {
+                                "context_property": "ACTIVE_SCENE",
+                                "bone_target": "brow.T.L.003",
+                                "data_path": "",
+                                "rotation_mode": "AUTO",
+                                "transform_space": "LOCAL_SPACE",
+                                "transform_type": "LOC_Y",
+                                "cm_id": "rig"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data_path": "key_blocks[\"Exp_Eyebrows_InnerBrow_Lower_Left\"].value",
+            "array_index": 0,
+            "driver": {
+                "expression": "var * -200",
+                "type": "SCRIPTED",
+                "use_self": false,
+                "variables": {
+                    "var": {
+                        "type": "TRANSFORMS",
+                        "targets": [
+                            {
+                                "context_property": "ACTIVE_SCENE",
+                                "bone_target": "brow.T.L.003",
+                                "data_path": "",
+                                "rotation_mode": "AUTO",
+                                "transform_space": "LOCAL_SPACE",
+                                "transform_type": "LOC_Y",
+                                "cm_id": "rig"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data_path": "key_blocks[\"Exp_Eyebrows_InnerBrow_Raised_Right\"].value",
+            "array_index": 0,
+            "driver": {
+                "expression": "var * 200",
+                "type": "SCRIPTED",
+                "use_self": false,
+                "variables": {
+                    "var": {
+                        "type": "TRANSFORMS",
+                        "targets": [
+                            {
+                                "context_property": "ACTIVE_SCENE",
+                                "bone_target": "brow.T.R.003",
+                                "data_path": "",
+                                "rotation_mode": "AUTO",
+                                "transform_space": "LOCAL_SPACE",
+                                "transform_type": "LOC_Y",
+                                "cm_id": "rig"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data_path": "key_blocks[\"Exp_Eyebrows_InnerBrow_Lower_Right\"].value",
+            "array_index": 0,
+            "driver": {
+                "expression": "var * -200",
+                "type": "SCRIPTED",
+                "use_self": false,
+                "variables": {
+                    "var": {
+                        "type": "TRANSFORMS",
+                        "targets": [
+                            {
+                                "context_property": "ACTIVE_SCENE",
+                                "bone_target": "brow.T.R.003",
+                                "data_path": "",
+                                "rotation_mode": "AUTO",
+                                "transform_space": "LOCAL_SPACE",
+                                "transform_type": "LOC_Y",
+                                "cm_id": "rig"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data_path": "key_blocks[\"Exp_Eyebrows_OuterBrow_Raised_Left\"].value",
+            "array_index": 0,
+            "driver": {
+                "expression": "var * 200",
+                "type": "SCRIPTED",
+                "use_self": false,
+                "variables": {
+                    "var": {
+                        "type": "TRANSFORMS",
+                        "targets": [
+                            {
+                                "context_property": "ACTIVE_SCENE",
+                                "bone_target": "brow.T.L.001",
+                                "data_path": "",
+                                "rotation_mode": "AUTO",
+                                "transform_space": "LOCAL_SPACE",
+                                "transform_type": "LOC_Y",
+                                "cm_id": "rig"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data_path": "key_blocks[\"Exp_Eyebrows_OuterBrow_Raised_Right\"].value",
+            "array_index": 0,
+            "driver": {
+                "expression": "var * 200",
+                "type": "SCRIPTED",
+                "use_self": false,
+                "variables": {
+                    "var": {
+                        "type": "TRANSFORMS",
+                        "targets": [
+                            {
+                                "context_property": "ACTIVE_SCENE",
+                                "bone_target": "brow.T.R.001",
+                                "data_path": "",
+                                "rotation_mode": "AUTO",
+                                "transform_space": "LOCAL_SPACE",
+                                "transform_type": "LOC_Y",
+                                "cm_id": "rig"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data_path": "key_blocks[\"Exp_Eyebrows_OuterBrow_Lower_Right\"].value",
+            "array_index": 0,
+            "driver": {
+                "expression": "var * -200",
+                "type": "SCRIPTED",
+                "use_self": false,
+                "variables": {
+                    "var": {
+                        "type": "TRANSFORMS",
+                        "targets": [
+                            {
+                                "context_property": "ACTIVE_SCENE",
+                                "bone_target": "brow.T.R.001",
+                                "data_path": "",
+                                "rotation_mode": "AUTO",
+                                "transform_space": "LOCAL_SPACE",
+                                "transform_type": "LOC_Y",
+                                "cm_id": "rig"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data_path": "key_blocks[\"Exp_Eyebrows_OuterBrow_Lower_Left\"].value",
+            "array_index": 0,
+            "driver": {
+                "expression": "var * -200",
+                "type": "SCRIPTED",
+                "use_self": false,
+                "variables": {
+                    "var": {
+                        "type": "TRANSFORMS",
+                        "targets": [
+                            {
+                                "context_property": "ACTIVE_SCENE",
+                                "bone_target": "brow.T.L.001",
+                                "data_path": "",
+                                "rotation_mode": "AUTO",
+                                "transform_space": "LOCAL_SPACE",
+                                "transform_type": "LOC_Y",
+                                "cm_id": "rig"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data_path": "key_blocks[\"Exp_Ears_Up_Right\"].value",
+            "array_index": 0,
+            "driver": {
+                "expression": "var * 100",
+                "type": "SCRIPTED",
+                "use_self": false,
+                "variables": {
+                    "var": {
+                        "type": "TRANSFORMS",
+                        "targets": [
+                            {
+                                "context_property": "ACTIVE_SCENE",
+                                "bone_target": "ear.R",
+                                "data_path": "",
+                                "rotation_mode": "AUTO",
+                                "transform_space": "LOCAL_SPACE",
+                                "transform_type": "LOC_Y",
+                                "cm_id": "rig"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data_path": "key_blocks[\"Exp_Ears_Up_Left\"].value",
+            "array_index": 0,
+            "driver": {
+                "expression": "var * 100",
+                "type": "SCRIPTED",
+                "use_self": false,
+                "variables": {
+                    "var": {
+                        "type": "TRANSFORMS",
+                        "targets": [
+                            {
+                                "context_property": "ACTIVE_SCENE",
+                                "bone_target": "ear.L",
+                                "data_path": "",
+                                "rotation_mode": "AUTO",
+                                "transform_space": "LOCAL_SPACE",
+                                "transform_type": "LOC_Y",
+                                "cm_id": "rig"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data_path": "key_blocks[\"Exp_Ears_Back_Right\"].value",
+            "array_index": 0,
+            "driver": {
+                "expression": "var * -100",
+                "type": "SCRIPTED",
+                "use_self": false,
+                "variables": {
+                    "var": {
+                        "type": "TRANSFORMS",
+                        "targets": [
+                            {
+                                "context_property": "ACTIVE_SCENE",
+                                "bone_target": "ear.R",
+                                "data_path": "",
+                                "rotation_mode": "AUTO",
+                                "transform_space": "LOCAL_SPACE",
+                                "transform_type": "LOC_Z",
+                                "cm_id": "rig"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data_path": "key_blocks[\"Exp_Ears_Back_Left\"].value",
+            "array_index": 0,
+            "driver": {
+                "expression": "var * -100",
+                "type": "SCRIPTED",
+                "use_self": false,
+                "variables": {
+                    "var": {
+                        "type": "TRANSFORMS",
+                        "targets": [
+                            {
+                                "context_property": "ACTIVE_SCENE",
+                                "bone_target": "ear.L",
+                                "data_path": "",
+                                "rotation_mode": "AUTO",
+                                "transform_space": "LOCAL_SPACE",
+                                "transform_type": "LOC_Z",
+                                "cm_id": "rig"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
             "data_path": "key_blocks[\"Exp_Look_In_Left\"].value",
             "array_index": 0,
             "driver": {

@@ -474,13 +474,6 @@ shoulder.L:
   axis_z: [0.0, 0.0, 1.0]
 shoulder.R:
   axis_z: [0.0, 0.0, 1.0]
-spine.004:
-  connected: 1
-  offs_tail: [0.00013, 0.00444, 4.0e-05]
-spine.005:
-  offs_tail: [0.00145, -0.00375, 0.00048]
-spine.006:
-  offs_tail: [0.00057, -0.00113, 0.00739]
 teeth.B:
   offs_head: [0.0, -0.00024, -0.00129]
   offs_tail: [0.0, -0.00092, 0.00033]

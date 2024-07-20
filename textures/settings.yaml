@@ -1,0 +1,13 @@
+Sclera_Color.<UDIM>: Linear
+Sclera_Height.<UDIM>: Linear
+Light_Skin_Color.<UDIM>: Linear
+Dark_Skin_Color.<UDIM>: Linear
+Skin_Roughness.<UDIM>: Linear
+Skin_Height.<UDIM>: Linear
+Mouth_Color.<UDIM>: Linear
+Mouth_Roughness.<UDIM>: Linear
+Mouth_Height.<UDIM>: Linear
+Iris_Color.<UDIM>: Linear
+Iris_Roughness.<UDIM>: Linear
+Iris_Height.<UDIM>: Linear
+Skin_Age_Height.<UDIM>: Linear

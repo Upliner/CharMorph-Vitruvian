@@ -1,6 +1,6 @@
 title: Vitruvian (CC0)
 author: Hope, Olaf Delgado-Friedrichs
-additional_authors: Hope (Shape,Morphs, Blendshapes, UVs, Textures, Rigging), Olaf Delgado-Friedrichs (Original Antonia Version, Topology), SirMaxim (Skin LUT), Upliner (Original Antonia Rigging)
+additional_authors: Hope (Shape,Morphs, Blendshapes, UVs, Textures, Rigging), Olaf Delgado-Friedrichs (Original Antonia Version, Topology), SirMaxim (Skin LUT), Upliner (Original Antonia Rigging), AgentA1CR (Node help.)
 license: CC0
 
 char_obj: cm_vitruvian
@@ -9,14 +9,31 @@ default_hair_length: 0.1
 default_armature: rigify
 default_texture_set: 4K
 
-hair_library: eyebrows.blend
-hair_obj: EyeBrows
-hair_shrinkwrap: true
-force_hair_scalp: true
-hair_shrinkwrap_offset: 0
-hairstyles: [Eyebrows001, Eyebrows002, Eyebrows003, Eyebrows004, Eyebrows005, Eyebrows006, Eyebrows007, Eyebrows008, Eyebrows009, Eyebrows010, Eyebrows011, Eyebrows012]
-
+hair_library: hair.blend
+hair_obj: hair-src
+hairstyles:
+    - Eve
+    - Back1
+    - Bob
+    - Combover_zoro_d
+    - SceneHair_1_O4saken
+    - SlickedBack
+    - mind_eyebrows_01
+    - mind_eyebrows_02
+    - mind_eyebrows_03
+    - mind_eyebrows_04
+    - mind_eyebrows_05
+    - mind_eyebrows_06
+    - mind_eyebrows_07
+    - mind_eyebrows_08
+    - mind_eyebrows_09
+    - mind_eyebrows_10
+    - mind_eyebrows_11_Default
+    - mind_eyebrows_12
+    - mind_eyebrows_13
+    - mind_eyebrows_14
 custom_morph_order: true
+randomize_excl_regex: ^(Age|Fantasy).*$
 recurse_materials: true
 
 materials:

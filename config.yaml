@@ -42,6 +42,7 @@ materials:
   - Pupil
   - Sclera_Cornea
   - UDIM.Skin
+  - charmorph_censor
   - EyeHair
   - Tearline
 armature_defaults:

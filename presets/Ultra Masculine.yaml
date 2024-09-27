@@ -1,0 +1,187 @@
+materials:
+  Age (Baby): 0.0
+  Age (Eldery): 0.1
+  EastAsian: 0.0
+  Estrogen: 0.0
+  Five O' Clock Shadow: 1.0
+  Global Bump Strength: 1.5
+  Hair Ambient Occlusion: 0.0
+  Hemoglobin Fraction: 1.0
+  Hue: 0.5
+  Iris Bump Strength: 1.0
+  Iris Color Blend: 0.0
+  Linear Melanin Texture Blend: 0.0
+  Lip Bump Strength: 1.0
+  Melanin Blend: 0.0
+  Melanin Fraction: 0.0
+  Micro Bump Strength: 1.0
+  Physical Melanin LUT Blend: 0.0
+  Primary Iris Color: [0.04129, 0.07204, 0.11132, 1.0]
+  Roughness Multiplier: 0.8
+  Saturation: 1.0
+  Scalp Tan: 1.0
+  Sclera Bump Strength: 1.0
+  Sclera Redness: 0.0
+  Sclera Yellowness: 0.0
+  Secondary Iris Color: [0.03161, 0.00893, 0.10656, 1.0]
+  Subsurface Scale Multiplier: 1.0
+  Teeth Brownness: 0.0
+  Teeth Bump Strength: 0.5
+  Teeth Roughness Multiplier: 0.0
+  Teeth Yellowness: 0.0
+  Tone: 0.2
+  Value: 1.0
+meta: {}
+morphs:
+  Age_Baby: 0.0
+  Age_Old: 0.2
+  Arms_Armpit_Loc_Z: 0.0
+  Arms_BicepSize: 1.0
+  Arms_Forearm_Girth: 0.52478
+  Arms_TricepSize: 1.0
+  BodyType_EctoMorph: 0.0
+  BodyType_Emaciated: 0.0
+  BodyType_EndoMorph: 0.0
+  BodyType_Fat: 0.0
+  BodyType_Lean: 0.0
+  BodyType_LongProportions: 0.0
+  BodyType_MesoMorph: 1.0
+  BodyType_Muscular: 1.0
+  Cheeks_BoneDefinition: 0.0
+  Cheeks_BuccalFat: 0.0
+  Cheeks_CheeksBonePositionZ: 0.0
+  Cheeks_UpperCheek_Bone: 0.0
+  Chest_Areola_Radius: 0.0
+  Chest_Breast_Size: 0.0
+  Chest_FemaleFlatChested: 0.0
+  Chest_FemaleSiliconeImplants: 0.0
+  Chest_Nipple_Potrusion: 0.0
+  Chin_ChinCleft: 1.0
+  Chin_Height: 0.0
+  Chin_Portrusion: 0.39067
+  Chin_PosZ: 0.0
+  Chin_SecondaryWidth: 0.0
+  Chin_Tilt: 0.0
+  Chin_Width: 0.0
+  Ears_Canal_Depth: 0.0
+  Ears_Canal_Size: 0.0
+  Ears_Height: 0.7172
+  Ears_Length: 0.69971
+  Ears_Lobe: 0.0
+  Ears_LobeAttached: 0.0
+  Ears_Potrusion: 0.0
+  Ears_PotrusionTop: 0.0
+  Ears_Rot: 0.0
+  Ears_Round: 0.0
+  Ears_Tragus_Portrusion: 0.74927
+  Eyes_Distance: 0.0
+  Eyes_EyeBagsProminence: 0.0
+  Eyes_EyeBagsSize: 0.0
+  Eyes_EyebrowsAngle: 0.0
+  Eyes_EyebrowsDroop: 0.0
+  Eyes_Eyelid_Monolid: 0.0
+  Eyes_Eyelid_hooded: 0.0
+  Eyes_EyelidsAngle: 0.0
+  Eyes_EyelidsAngle2: 0.0
+  Eyes_EyelidsCrease: 0.0
+  Eyes_LacrimalCaruncle_Rotate: 0.0
+  Eyes_LacrimalCaruncle_Sharpness: 0.0
+  Eyes_LowerLidOpenness: 0.0
+  Eyes_Size: 0.0
+  Eyes_UpperLidOpenness: 0.0
+  Eyes_VerticalShift: 0.0
+  Face_BrowRidge_CurvedDroop: 0.0
+  Face_BrowRidge_CurvedRaise: 0.0
+  Face_BrowRidge_Droop: 0.0
+  Face_BrowRidge_Raise: 0.0
+  Face_EyeSocket_Potrusion: 0.0
+  Face_FrontalBone: 0.0
+  Face_FrontalBone_BrowRidge: 0.0
+  Face_FrontalBone_FrontalEminence: 0.0
+  Face_Maxilla: 0.0
+  Face_Puffy: 0.0
+  Face_Zygomatic_Bone: 0.0
+  Fantasy_CatEyes: 0.0
+  Fantasy_Ear: 0.0
+  Fantasy_NoNose: 0.0
+  Fantasy_SharpTeeth: 0.0
+  Fantasy_SnakeTongue: 0.0
+  Fantasy_VampireTeeth: 0.0
+  Gender_Female: 0.0
+  Gender_Male: 1.0
+  Generic_Assymetry: 0.0
+  Hands_FingernailLength: 0.0
+  Hands_FingernailPointiness: 0.0
+  Hands_Girth: 0.49563
+  Hands_Size: 0.0
+  Head_BackScalpPotrusion: 0.0
+  Head_FrontalBoneFlatness: 0.0
+  Head_ParietalFlatness: 0.0
+  Head_SideScalpPotrusion: 0.0
+  Head_SphenoidBone: 0.0
+  Head_TemporalLines: 0.0
+  Head_TopScalpPotrusion: 0.0
+  Jaw_Definition: 0.0
+  Jaw_Mandible: 0.44898
+  Jaw_Mandible_GonialAngle: 0.0
+  Jaw_Ramus_Extrusion: 0.0
+  Jaw_Ramus_LocY: 0.0
+  Jaw_Width: 0.8688
+  Legs_Calves_Size: 1.0
+  Legs_FeetSize: 0.0
+  Legs_FlatFoot: 0.0
+  Legs_Hamstring_Size: 1.0
+  Legs_Quad_Size: 1.0
+  Legs_Thigh_Gap: 0.0
+  Legs_Thigh_Size: 1.0
+  Legs_Toenail_Length: 0.0
+  Mouth_Lips_BottomLipDepth: 0.0
+  Mouth_Lips_Height: 0.0
+  Mouth_Lips_Length: 0.0
+  Mouth_Lips_LowerAngle: 0.0
+  Mouth_Lips_UpperAngle: 0.0
+  Mouth_Lips_UpperLipArch: 0.0
+  Mouth_Lips_UpperLipDepth: 0.0
+  Mouth_NoTeeth: 0.0
+  Mouth_PhiltrumDepth: 0.0
+  Mouth_PhiltrumHeight: 0.0
+  Neck_AdamsApple: 0.0
+  Neck_ChinConnection: 0.0
+  Neck_Girth: 0.0
+  Neck_Length: 0.0
+  Nose_BottomFlatness: 0.0
+  Nose_BridgeProminence: 0.0
+  Nose_NasalAngle: 0.0
+  Nose_NasalBone: 0.0
+  Nose_NasalBone_AnteriorNasalAperature: -1.0
+  Nose_NasalBone_AnteriorNasalSpine: 0.0
+  Nose_NoseHeight: 0.0
+  Nose_NostrilSize: 0.0
+  Nose_Potrusion: 0.0
+  Nose_TipCrease: 0.0
+  Nose_Tip_Potrusion: 0.0
+  Race_African: 0.0
+  Race_Bengali: 0.0
+  Race_EastAsian: 0.0
+  Race_Hispanic: 0.0
+  Race_Kannada: 0.0
+  Race_Marathi: 0.0
+  Race_MiddleEastern: 0.0
+  Race_Punjabi: 0.0
+  Race_Sinhalese: 0.0
+  Race_Tamil: 0.0
+  Race_Telegu: 0.0
+  Race_White: 0.2
+  Shoulders_ShoulderBladeWidth: 0.0
+  Shoulders_ShoulderTrapeziusSize: 0.0
+  Shoulders_ShoulderWidth: 0.0
+  Stomach_BellyButtonPotrusion: 0.0
+  Stomach_Bloating: 0.0
+  Torso_RibWidth: 0.0
+  Waist_GluteSize: 0.0
+  Waist_GlutealCleft_Depth: 0.0
+  Waist_GlutealCleft_Width: 0.0
+  Waist_GlutealFold: 0.0
+  Waist_Hips_Width: 0.0
+  Waist_Width: 0.0
+type: [Default]
